@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center text-primary">Exploring Foods</h1>
+    </header>
+    <main>
+        <h2 class="text-center text-success">My meals</h2>
+
+        <section class="m-4 p-4">
+            <h2>Meal Details</h2>
+            <div id="detail_container" style="width: 22rem;">
+
+            </div>
+        </section>
+
+        <section class="m-4 p-4">
+            <input type="text" id="search_field" placeholder="Search your food">
+            <button class="btn-primary" onclick="searchFood()">Search</button>
+        </section>
+
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="meal_container">
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/meals.js"></script>
+</body>
+
+</html>
